@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Original Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container p-4 my-4">
+
+        <!-- header start -->
+        <header class="p-3 text text-bg-dark mb-5">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                    </a>
+
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#" class="nav-link px-2 text-secondary">Add Product</a></li>
+                        <li><a href="#" class="nav-link px-2 text-white">List Products</a></li>
+                        <li><a href="#" class="nav-link px-2 text-white">Table View</a></li>
+                        <!-- <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+                        <li><a href="#" class="nav-link px-2 text-white">About</a></li> -->
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                        <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+                            aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <!-- header end -->
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Product name</span>
+            <input type="text" class="form-control" aria-label="Username"
+                aria-describedby="basic-addon1">
+                <span class="input-group-text" id="basic-addon1">Type</span>
+                <input type="text" class="form-control" aria-label="Username"
+                    aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Client name</span>
+            <input type="text" class="form-control" placeholder="Client name" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+        </div>
+
+        <div class="mb-3">
+            <label for="basic-url" class="form-label">Client Phone</label>
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon3"></span>
+                <input type="number" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Price $</span>
+            <input type="number" class="form-control">
+            <span class="input-group-text">Quantity</span>
+            <input type="number" class="form-control">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Storage</span>
+            <input type="text" class="form-control" placeholder="128GB" aria-label="Username">
+            <span class="input-group-text">Color</span>
+            <input type="text" class="form-control" placeholder="black" aria-label="Server">
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-text">Description of the Product</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+
+        <div class="input-group">
+            <button type="button" class="btn btn-info w-100 mt-3">Create Product</button>
+        </div>
+    </div>
+
+
+    <!-- Cards start -->
+   
+
+
+
+    
+    
+
+    <style>
+        * {
+            background: #1b1b23 !important;
+            color: ghostwhite !important;
+        }
+        ::placeholder {
+            color: rgb(197, 185, 185) !important;
+        }
+        body {
+  --bs-body-font-family: var(--bs-font-monospace);
+  --bs-body-line-height: 1.4;
+  --bs-body-bg: var(--bs-gray-100);
+}
+
+    </style>
+</body>
+
+</html>
