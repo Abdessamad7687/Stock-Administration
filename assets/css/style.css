@@ -27,10 +27,20 @@ a{
 ::placeholder {
     color: rgb(197, 185, 185) !important;
 }
-input{
+input, textarea{
     border-radius: 0% !important;
     border: solid 1px #40405b !important;
     outline: 0px !important;
     --webkit-appearance:none;
     box-shadow: none !important;
+    margin-top: 10px !important;
+}
+input:focus{
+    border-color:#107df2 !important;
+}
+textarea:focus{
+    border-color:#107df2 !important;
+}
+#total:hover{
+    cursor: not-allowed !important;
 }
