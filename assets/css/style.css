@@ -5,12 +5,6 @@
     color: ghostwhite !important;
 }
 
-body {
-    --bs-body-font-family: var(--bs-font-monospace);
-    --bs-body-line-height: 1.4;
-    --bs-body-bg: var(--bs-gray-100);
-}
-
 button{
     font-size: 20px !important;
     font-family: Bodoni MT !important;
@@ -18,10 +12,20 @@ button{
 a{
     font-family: Optima !important;
     font-weight: 400 !important;
-    background-color: #1a1a23 !important;
+    /* background-color: #1a1a23 !important; */
 }
-.flex-wrap{
-    background: #1f1f2a !important;
+
+.active{
+    background-color: #1a1a23 !important;
+    border-radius: 20px !important;
+}
+
+li{
+    color: #107df2 !important;
+}
+
+li a{
+    color: #107df2 !important;
 }
 
 ::placeholder {
@@ -34,6 +38,7 @@ input, textarea{
     --webkit-appearance:none;
     box-shadow: none !important;
     margin-top: 10px !important;
+    color: aqua !important;
 }
 input:focus{
     border-color:#107df2 !important;
@@ -43,4 +48,15 @@ textarea:focus{
 }
 #total:hover{
     cursor: not-allowed !important;
+}
+
+.alert{
+    display: none !important;
+}
+.alert-flex{
+    display: flex !important;
+}
+#close{
+    color: #107df2 !important;
+    border: solid 1px #107df2 !important;
 }

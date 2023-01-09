@@ -14,15 +14,14 @@
 </head>
 
 <body>
-    <div class="container p-4 my-4">
-
+    <div class="container p-4 my-2">
         <!-- header start -->
-        <header class="p-3 text text mb-5">
+        <header class="p-3 text text mb-3">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 gap-5">
-                        <li><a href="#" class="nav-link px-2 text-info">
+                        <li><a href="#" class="nav-link px-2 text-info active">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
@@ -53,6 +52,14 @@
                 </div>
             </div>
         </header>
+
+
+        <div class="alert alert-primary d-flex justify-content-between" role="alert">
+            <span class="text-left text-info">Product Added Successfully</span>
+            <button type="button" class="close text-info" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true" id="close">&times;</span>
+            </button>
+        </div>
 
         <!-- header end -->
         <div class="input-group mb-3">
@@ -157,7 +164,7 @@
         </div>
 
         <div class="input-group">
-            <button type="button" class="btn btn-info w-100 mt-3">
+            <button type="button" id="create" class="btn btn-info w-100 mt-3">
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-box-arrow-right" viewBox="0 0 16 16">
