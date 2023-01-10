@@ -60,3 +60,6 @@ textarea:focus{
     color: #107df2 !important;
     border: solid 1px #107df2 !important;
 }
+.white{
+    background-color: aliceblue !important;
+}
